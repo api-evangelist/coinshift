@@ -1,17 +1,38 @@
 aid: coinshift
 name: Coinshift
-description: 'Coinshift is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: >-
+  Coinshift is a non-custodial, multi-chain onchain treasury management platform for startups, DAOs and
+  crypto-native organisations, founded in 2021 as MultiSafe and built on top of Safe (Gnosis Safe) multisig
+  accounts. The application unifies portfolio tracking across ERC-20 tokens and NFTs, multi-signature proposal
+  and transaction workflows, mass and recurring payouts, contact and label management, CSV transaction export
+  and cash-flow reporting, plus embedded dApp integrations for Aave, CoW Swap, 1inch, LI.FI, ParaSwap, Hedgey,
+  Request Finance and Superfluid money streams, with Slack and Discord signing notifications. Coinshift also
+  issues onchain yield assets — csUSDL, an ERC-4626 vault receipt token for USDL deposited into the Coinshift
+  USDL Morpho Vault, csUSDC, the SHIFT governance token, and the iUSPC institutional credit product. Coinshift
+  publishes no public developer API: the documentation at docs.coinshift.xyz is entirely end-user product and
+  asset guidance, with no developer portal, API reference, OpenAPI, GraphQL schema or webhook catalog.
+image: https://app.coinshift.xyz/images/logo.svg
 url: https://raw.githubusercontent.com/api-evangelist/coinshift/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
+x-tier: enriched
 x-tier-reason: harvest
 specificationVersion: '0.20'
 created: '2026-08-09'
 modified: '2026-08-09'
 tags:
 - Company
+- crypto-treasury-management
+- digital-assets
+- decentralized-finance
+- stablecoins
+- multisig
+- payments
+- payouts
+- accounting
+- web3
+- ethereum
+- daos
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +40,53 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/coinshift-domain-security.yml
 - type: Website
-  url: https://augment.market/c/coinshift
+  url: https://www.coinshift.xyz/
+- type: Documentation
+  url: https://docs.coinshift.xyz/
+- type: GettingStarted
+  url: https://docs.coinshift.xyz/business/primer-and-peaks/first-steps
+- type: Support
+  url: https://discord.com/invite/coinshift
+- type: SignUp
+  url: https://coinshift.global/login
+- type: StatusPage
+  url: https://status.coinshift.xyz/
+- type: LLMsTxt
+  url: llms/coinshift-llms.txt
+- type: LLMsTxt
+  url: https://docs.coinshift.xyz/llms.txt
+- type: Packages
+  url: packages/coinshift-packages.yml
+- type: Lifecycle
+  url: lifecycle/coinshift-lifecycle.yml
+- type: Conformance
+  url: conformance/coinshift-conformance.yml
+x-enrichment:
+  date: '2026-08-09'
+  status: minimal
+  artifacts_added: 5
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: >-
+    Coinshift ships only end-user software — docs.coinshift.xyz publishes a complete, crawlable
+    llms.txt index of 136 pages and every one of them is a product walkthrough or a csUSDL/csUSDC
+    asset explainer, with no developer portal, API reference, SDK or webhook page anywhere in it;
+    the only HTTP backend behind the app, uspc-prod.up.railway.app, is undocumented and answers
+    404 NOT_FOUND to /openapi.json, /graphql, /mcp and every other discovery path.
+  evidence:
+    - url: https://docs.coinshift.xyz/llms.txt
+      status: 200
+    - url: https://docs.coinshift.xyz/openapi.json
+      status: 404
+    - url: https://uspc-prod.up.railway.app/openapi.json
+      status: 404
+    - url: https://uspc-prod.up.railway.app/graphql
+      status: 404
+    - url: https://uspc-prod.up.railway.app/mcp
+      status: 404
+  checked: '2026-08-09'

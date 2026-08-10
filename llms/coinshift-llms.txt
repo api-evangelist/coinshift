@@ -1,0 +1,136 @@
+# Coinshift
+
+## Home
+
+- [Coinshift Overview](https://docs.coinshift.xyz/start-here/coinshift-overview.md): Asset management, payments, and accounting. All in one place.
+- [csUSDL](https://docs.coinshift.xyz/coinshift-assets/csusdl.md): Earn real yield with csUSDL, the institutional-grade stablecoin backed by the world’s most secure onchain assets.
+- [How csUSDL works](https://docs.coinshift.xyz/coinshift-assets/csusdl/how-csusdl-works.md): This section explains how funds flow through the system and how csUSDL steadily grows in value over time.
+- [Yield Mechanics](https://docs.coinshift.xyz/coinshift-assets/csusdl/yield-mechanics.md): Understand how csUSDL generates, compounds, and distributes yield across real-world assets, lending markets, and token incentives.
+- [Why we need csUSDL?](https://docs.coinshift.xyz/coinshift-assets/csusdl/why-we-need-csusdl.md)
+- [Opportunity Size ](https://docs.coinshift.xyz/coinshift-assets/csusdl/opportunity-size.md): Defining the Market Opportunity and Revenue Potential for csUSDL
+- [Fees & Revenue](https://docs.coinshift.xyz/coinshift-assets/csusdl/fees-and-revenue.md): How csUSDL generates protocol revenue and aligns long-term value capture with the growth of the Coinshift economy.
+- [Coinshift USDL Vault](https://docs.coinshift.xyz/coinshift-assets/csusdl/coinshift-usdl-vault.md): Explore how the csUSDL Vault boosts your USDL earnings with automated lending, dual yields, and advanced risk management.
+- [Characteristics](https://docs.coinshift.xyz/coinshift-assets/csusdl/coinshift-usdl-vault/characteristics.md)
+- [Lenders & Borrowers benefits](https://docs.coinshift.xyz/coinshift-assets/csusdl/coinshift-usdl-vault/lenders-and-borrowers-benefits.md): How Lenders and Borrowers benefit from csUSDL.
+- [Governance](https://docs.coinshift.xyz/coinshift-assets/csusdl/coinshift-usdl-vault/governance.md)
+- [Vault Roles](https://docs.coinshift.xyz/coinshift-assets/csusdl/coinshift-usdl-vault/vault-roles.md)
+- [Token Specification](https://docs.coinshift.xyz/coinshift-assets/csusdl/coinshift-usdl-vault/token-specification.md)
+- [csUSDC](https://docs.coinshift.xyz/coinshift-assets/csusdc.md)
+- [Token Specification](https://docs.coinshift.xyz/coinshift-assets/csusdc/token-specification.md)
+- [SHIFT](https://docs.coinshift.xyz/coinshift-assets/shift.md): SHIFT is the governance token of the Coinshift Network, which aims to align stakeholders and accelerate the adoption of Coinshift's products across the EVM ecosystem, including csUSDL and csUSDC.
+- [SHIFT Tokenomics](https://docs.coinshift.xyz/coinshift-assets/shift/shift-tokenomics.md): Tokenomics
+- [Mint csUSDL](https://docs.coinshift.xyz/user-guides/mint-csusdl.md): This guide explains how to mint csUSDL using USDC or by borrowing against blue-chip assets like wstETH or cbBTC.
+- [Redeem csUSDL](https://docs.coinshift.xyz/user-guides/redeem-csusdl.md): Redeeming csUSDL is simple and flexible—whether you're exiting to stablecoins or reclaiming blue-chip collateral. Follow the steps below for the most efficient redemption path.
+- [csUSDL Partners](https://docs.coinshift.xyz/integrations-and-partners/csusdl-partners.md): Coinshift collaborates with institutional partners that provide unmatched expertise and infrastructure:  Paxos International, Steakhouse Financial and Morpho Protocol.
+- [csUSDL Integrations](https://docs.coinshift.xyz/integrations-and-partners/csusdl-integrations.md): coming soon
+- [Trusted Links & Audits](https://docs.coinshift.xyz/resources/trusted-links-and-audits.md): All official contract addresses, audits and verified links for csUSDL, csUSDC, and the broader Coinshift ecosystem.
+- [csUSDL Risk Policy](https://docs.coinshift.xyz/resources/csusdl-risk-policy.md): This section explains how the system handles redemptions, depegs, or stress scenarios, and how risk is mitigated at every layer.
+- [Coinshift Litepaper](https://docs.coinshift.xyz/resources/coinshift-litepaper.md)
+- [Q\&A: Reserves, Lending, and Risk Framework](https://docs.coinshift.xyz/q-and-a-reserves-lending-and-risk-framework.md): A breakdown of how Coinshift’s stablecoin stack combines regulated reserves, yield distribution, and onchain lending.
+- [csUSDL FAQs](https://docs.coinshift.xyz/comms/csusdl-faqs.md)
+- [Redemption & Risk](https://docs.coinshift.xyz/comms/redemption-and-risk.md): Understand how redemptions work, how csUSDL maintains liquidity, and why it’s built to resist depegging under stress.
+- [SHIFT Tiger Points (Season 1)](https://docs.coinshift.xyz/comms/shift-tiger-points-season-1.md): Loyalty system for Coinshift users
+- [FAQs](https://docs.coinshift.xyz/comms/shift-tiger-points-season-1/faqs.md)
+
+## Business
+
+- [Welcome](https://docs.coinshift.xyz/business/welcome.md): Explore the Coinshift support docs here!
+- [Introduction](https://docs.coinshift.xyz/business/about-us/introduction.md): Coinshift simplifies treasury operations for users, delivers actionable insights to financial managers, and increases transparency for communities and investors.
+- [Overview](https://docs.coinshift.xyz/business/about-us/overview.md): An overview of what you can do with Coinshift.
+- [Unified Dashboard](https://docs.coinshift.xyz/business/about-us/unified-dashboard.md): A single app to manage your on-chain treasury. Payments, reporting, and asset management for startups, DAOs, and organisations.
+- [First Steps](https://docs.coinshift.xyz/business/primer-and-peaks/first-steps.md): Your first moves on Coinshift.
+- [Popular Features](https://docs.coinshift.xyz/business/primer-and-peaks/popular-features.md): Quick links to the most popular sections in our documentation!
+- [Setting up a New Organisation](https://docs.coinshift.xyz/business/getting-started/setting-up-a-new-organisation.md): Create an organisation in Coinshift to manage your on-chain treasury.
+- [Request Access](https://docs.coinshift.xyz/business/getting-started/setting-up-a-new-organisation/request-access.md): Get access to manage the on-chain treasury of your startup, DAO or organisation.
+- [Sign Up](https://docs.coinshift.xyz/business/getting-started/setting-up-a-new-organisation/sign-up.md): Sign up as a new user and start your journey on Coinshift.
+- [Create a New Organisation](https://docs.coinshift.xyz/business/getting-started/setting-up-a-new-organisation/create-a-new-organisation.md): Create an organisation for managing the on-chain treasury assets with your team.
+- [Create Organisation from Coinshift Dashboard](https://docs.coinshift.xyz/business/getting-started/setting-up-a-new-organisation/create-a-new-organisation/create-organisation-from-coinshift-dashboard.md): Create multiple organisations from your Coinshift dashboard.
+- [Switch Organisations](https://docs.coinshift.xyz/business/getting-started/setting-up-a-new-organisation/create-a-new-organisation/switch-organisations.md): Switch among the organisations as needed.
+- [Add Accounts (Safes, Wallets, etc.)](https://docs.coinshift.xyz/business/getting-started/setting-up-a-new-organisation/add-accounts-safes-wallets-etc..md): Add one or more accounts from multiple networks to manage crypto assets through Coinshift’s unified dashboard.
+- [Add Existing Safes](https://docs.coinshift.xyz/business/getting-started/setting-up-a-new-organisation/add-accounts-safes-wallets-etc./add-existing-safes.md): Add Safes to track assets, manage historical transactions and execute transactions.
+- [Create a New Safe](https://docs.coinshift.xyz/business/getting-started/setting-up-a-new-organisation/add-accounts-safes-wallets-etc./create-a-new-safe.md): Define a Safe and store your organisation's assets.
+- [Transfer Assets To Your Safe](https://docs.coinshift.xyz/business/getting-started/setting-up-a-new-organisation/add-accounts-safes-wallets-etc./create-a-new-safe/transfer-assets-to-your-safe.md): Transfers assets from a wallet into your Safe, to safeguard your funds.
+- [Joining an Existing Organisation](https://docs.coinshift.xyz/business/getting-started/joining-an-existing-organisation.md): How to join an existing organisation with an invitation.
+- [Logging In](https://docs.coinshift.xyz/business/getting-started/logging-in.md): Access your Coinshift account.
+- [Setup Notifications](https://docs.coinshift.xyz/business/getting-started/setup-notifications.md): Speed up transaction signing by setting up Slack or Discord notifications.
+- [Connect Slack for an Org](https://docs.coinshift.xyz/business/getting-started/setup-notifications/connect-slack-for-an-org.md): Guidelines for setting up and disconnecting a Slack channel at an Organisational level.
+- [Connect Discord for an Org](https://docs.coinshift.xyz/business/getting-started/setup-notifications/connect-discord-for-an-org.md): Guidelines for setting up and disconnecting Discord at an Organisational level.
+- [Connect Slack for an Account](https://docs.coinshift.xyz/business/getting-started/setup-notifications/connect-slack-for-an-account.md): Integrate a Slack channel with your Safe account.
+- [Connect Discord for an Account](https://docs.coinshift.xyz/business/getting-started/setup-notifications/connect-discord-for-an-account.md): Integrate your Discord account with your Safe account for timely notifications.
+- [Viewing Notifications in Slack and Discord](https://docs.coinshift.xyz/business/getting-started/setup-notifications/viewing-notifications-in-slack-and-discord.md): Access notifications on Slack and Discord.
+- [Change Account Preferences: Disconnect Notifications](https://docs.coinshift.xyz/business/getting-started/setup-notifications/change-account-preferences-disconnect-notifications.md): Disconnect Slack and Discord notifications to stop receiving alerts for your Safe account.
+- [Discord: Adding Coinshift Roles & Bot to private channels](https://docs.coinshift.xyz/business/getting-started/setup-notifications/discord-adding-coinshift-roles-and-bot-to-private-channels.md): Configuring Coinshift notifications in private Discord channels.
+- [Discord: Check Your Permissions](https://docs.coinshift.xyz/business/getting-started/setup-notifications/discord-check-your-permissions.md): Resolving server access issues in Coinshift Discord integration.
+- [Add Members to Discord Server & Channel](https://docs.coinshift.xyz/business/getting-started/setup-notifications/add-members-to-discord-server-and-channel.md): Enhance team collaboration by adding your team members into the Discord server and channels for notifications.
+- [Overview](https://docs.coinshift.xyz/business/coinshift-walkthrough/overview.md): View your portfolio and pending transactions at a glance.
+- [Users](https://docs.coinshift.xyz/business/coinshift-walkthrough/users.md): Understanding users and their roles in Coinshift.
+- [Portfolio Management](https://docs.coinshift.xyz/business/coinshift-walkthrough/portfolio-management.md): Trace your tokens (ERC-20) and NFTs across multiple accounts and multiple networks.
+- [Token Portfolio Tracking (ERC-20)](https://docs.coinshift.xyz/business/coinshift-walkthrough/portfolio-management/token-portfolio-tracking-erc-20.md): Live balances in token and USD values across multiple accounts and multiple networks.
+- [Add Additional Tokens](https://docs.coinshift.xyz/business/coinshift-walkthrough/portfolio-management/token-portfolio-tracking-erc-20/add-additional-tokens.md): Manually add tokens that are not in the Coingecko top 1000 list.
+- [NFT Portfolio Tracking](https://docs.coinshift.xyz/business/coinshift-walkthrough/portfolio-management/nft-portfolio-tracking.md): View NFTs across multiple accounts and multiple networks.
+- [Reporting](https://docs.coinshift.xyz/business/coinshift-walkthrough/reporting.md): Get real-time insights into the health of your treasury, generate financial reports and increase transparency for your community and investors.
+- [Portfolio History](https://docs.coinshift.xyz/business/coinshift-walkthrough/reporting/portfolio-history.md): Get historical token balances for your Safes in seconds, both in token value and USD equivalent.
+- [Cash Flow Tracker](https://docs.coinshift.xyz/business/coinshift-walkthrough/reporting/cash-flow-tracker.md): Track all transactions by custom labels, tokens, accounts, and more.
+- [Coinshift Apps](https://docs.coinshift.xyz/business/coinshift-walkthrough/coinshift-apps.md): Explore supported dApps, and experience human-readable interactions directly from your multi-sig Safes.
+- [AAVE](https://docs.coinshift.xyz/business/coinshift-walkthrough/coinshift-apps/aave.md): How Coinshift users can lend and borrow assets on AAVE.
+- [CoW Swap](https://docs.coinshift.xyz/business/coinshift-walkthrough/coinshift-apps/cow-swap.md): How Coinshift users can create limit orders to swap tokens on CoW Swap.
+- [Hedgey](https://docs.coinshift.xyz/business/coinshift-walkthrough/coinshift-apps/hedgey.md): Customisable on-chain solutions: Token Vesting & Time Locks for DAOs.
+- [1inch](https://docs.coinshift.xyz/business/coinshift-walkthrough/coinshift-apps/1inch.md): How Coinshift users can swap tokens on 1inch.
+- [LI.FI](https://docs.coinshift.xyz/business/coinshift-walkthrough/coinshift-apps/li.fi.md): How Coinshift users can swap & bridge tokens on LI.FI.
+- [ParaSwap](https://docs.coinshift.xyz/business/coinshift-walkthrough/coinshift-apps/paraswap.md): How Coinshift users can swap tokens on ParaSwap.
+- [Request Finance](https://docs.coinshift.xyz/business/coinshift-walkthrough/coinshift-apps/request-finance.md): How Coinshift users can pay invoices raised by employees in a single click by using Request Finance.
+- [Superfluid](https://docs.coinshift.xyz/business/coinshift-walkthrough/coinshift-apps/superfluid.md): Pay recipients by the second with real-time money streams. Change the way you interact with money.
+- [Stream Payout](https://docs.coinshift.xyz/business/coinshift-walkthrough/coinshift-apps/superfluid/stream-payout.md): Put payroll on autopilot and delight contributors with money streams that pay by the second.
+- [Transaction Builder](https://docs.coinshift.xyz/business/coinshift-walkthrough/coinshift-apps/transaction-builder.md): Simplify your DeFi moves, interact & strategise with smart contracts in a single transaction.
+- [Account Management](https://docs.coinshift.xyz/business/coinshift-walkthrough/account-management.md): Take control of your Safe: A comprehensive guide to account management in Coinshift.
+- [Remove Account](https://docs.coinshift.xyz/business/coinshift-walkthrough/account-management/remove-account.md): Steps to remove an account from an organisation.
+- [Add Signers](https://docs.coinshift.xyz/business/coinshift-walkthrough/account-management/add-signers.md): Expand your team by adding more Signers to your existing Safe.
+- [Remove Signers](https://docs.coinshift.xyz/business/coinshift-walkthrough/account-management/remove-signers.md): Removing existing Signers from a Safe.
+- [Swap Signers](https://docs.coinshift.xyz/business/coinshift-walkthrough/account-management/swap-signers.md): Swapping out old Signer and onboarding new Signers.
+- [Change Safe Name](https://docs.coinshift.xyz/business/coinshift-walkthrough/account-management/change-safe-name.md): Modify the default name of your Coinshift Safe.
+- [Change Threshold](https://docs.coinshift.xyz/business/coinshift-walkthrough/account-management/change-threshold.md): Adjust the Safe's threshold.
+- [Adding a Safe as a Non-Signer](https://docs.coinshift.xyz/business/coinshift-walkthrough/account-management/adding-a-safe-as-a-non-signer.md): Add Safe in read-only mode and monitor its activities.
+- [Filter A Safe](https://docs.coinshift.xyz/business/coinshift-walkthrough/account-management/filter-a-safe.md): Filtering Safes based on networks and accounts.
+- [Transaction Management](https://docs.coinshift.xyz/business/coinshift-walkthrough/transaction-management.md): Understanding transactions in Coinshift in detail.
+- [Proposals](https://docs.coinshift.xyz/business/coinshift-walkthrough/transaction-management/proposals.md): What is a Proposal in Coinshift.
+- [Proposal Management](https://docs.coinshift.xyz/business/coinshift-walkthrough/transaction-management/proposals/proposal-management.md): Understand how the proposal works in Coinshift.
+- [Active And Discarded Proposals](https://docs.coinshift.xyz/business/coinshift-walkthrough/transaction-management/proposals/active-and-discarded-proposals.md): View and manage active and discarded proposals in Coinshift.
+- [Queue](https://docs.coinshift.xyz/business/coinshift-walkthrough/transaction-management/queue.md): Review the list of transactions pending execution.
+- [History](https://docs.coinshift.xyz/business/coinshift-walkthrough/transaction-management/history.md): Review the transactions associated with all the Safes in your organisation.
+- [Filter Transactions](https://docs.coinshift.xyz/business/coinshift-walkthrough/transaction-management/filter-transactions.md): Explore the advanced filtering options for transactions.
+- [Export Transactions](https://docs.coinshift.xyz/business/coinshift-walkthrough/transaction-management/export-transactions.md): Export your organisation's historical transaction data as a CSV file.
+- [Add Labels and Notes](https://docs.coinshift.xyz/business/coinshift-walkthrough/transaction-management/add-labels-and-notes.md): Organising transactions with labels and notes.
+- [On-chain Transaction Rejection](https://docs.coinshift.xyz/business/coinshift-walkthrough/transaction-management/on-chain-transaction-rejection.md): Explore the steps to reject an on-chain transaction.
+- [Fund Management](https://docs.coinshift.xyz/business/coinshift-walkthrough/fund-management.md): Learn about the various methods for transferring funds through Coinshift.
+- [Mass Payout](https://docs.coinshift.xyz/business/coinshift-walkthrough/fund-management/mass-payout.md): Transfer funds to multiple recipients with Mass Payout.
+- [Mass Payout in a Single Token](https://docs.coinshift.xyz/business/coinshift-walkthrough/fund-management/mass-payout/mass-payout-in-a-single-token.md): Sent tokens to single or multiple recipients in a single transaction.
+- [Mass Payout (Multiple Tokens)](https://docs.coinshift.xyz/business/coinshift-walkthrough/fund-management/mass-payout/mass-payout-multiple-tokens.md): Pay multiple recipients in multiple tokens in a single transaction.
+- [Mass Payout via CSV Upload](https://docs.coinshift.xyz/business/coinshift-walkthrough/fund-management/mass-payout/mass-payout-via-csv-upload.md): Upload payment details via a CSV file to perform mass payouts to up to 150 recipients in single or multiple tokens.
+- [Duplicating Transactions](https://docs.coinshift.xyz/business/coinshift-walkthrough/fund-management/mass-payout/duplicating-transactions.md): Duplicate an existing Mass payout transaction and reuse it.
+- [Recurring Payout](https://docs.coinshift.xyz/business/coinshift-walkthrough/fund-management/recurring-payout.md)
+- [Contact Management](https://docs.coinshift.xyz/business/coinshift-walkthrough/contact-management.md): Manage the contacts of your organisation.
+- [Add Contact](https://docs.coinshift.xyz/business/coinshift-walkthrough/contact-management/add-contact.md): Add contacts to your organisation and use them across all the associated Safes.
+- [Edit Contact](https://docs.coinshift.xyz/business/coinshift-walkthrough/contact-management/edit-contact.md): Edit existing contacts of your organisation.
+- [Remove Contact](https://docs.coinshift.xyz/business/coinshift-walkthrough/contact-management/remove-contact.md): Maintain a streamlined contact list by removing members no longer affiliated with your organisation.
+- [Bulk Import Contact](https://docs.coinshift.xyz/business/coinshift-walkthrough/contact-management/bulk-import-contact.md): Upload multiple contacts for your organisation using .CSV files.
+- [Label Management](https://docs.coinshift.xyz/business/coinshift-walkthrough/label-management.md): Define label and tag it to your customer, users, etc and categorise them.
+- [Add Label](https://docs.coinshift.xyz/business/coinshift-walkthrough/label-management/add-label.md): Add labels and use them across all the associated Safes in your organisation.
+- [Edit Label](https://docs.coinshift.xyz/business/coinshift-walkthrough/label-management/edit-label.md): Edit an existing label.
+- [Archive/ Unarchive Label](https://docs.coinshift.xyz/business/coinshift-walkthrough/label-management/archive-unarchive-label.md): Archiving and unarchiving a Label on Coinshift.
+- [Member Management](https://docs.coinshift.xyz/business/coinshift-walkthrough/member-management.md): Managing and understanding the roles, and responsibilities of Members.
+- [Add Member](https://docs.coinshift.xyz/business/coinshift-walkthrough/member-management/add-member.md): Expand your team by inviting any wallet address as Members to view your dashboard and propose transactions.
+- [Deactivate Member](https://docs.coinshift.xyz/business/coinshift-walkthrough/member-management/deactivate-member.md): Learn to remove the Members of your organisations.
+- [Filter & Search Members](https://docs.coinshift.xyz/business/coinshift-walkthrough/member-management/filter-and-search-members.md): Refine members based on their status.
+- [Supported Wallets](https://docs.coinshift.xyz/business/coinshift-walkthrough/supported-wallets.md): Explore Coinshift's supported wallets and pick the one that best suits your needs.
+- [Hardware Wallet Support](https://docs.coinshift.xyz/business/coinshift-walkthrough/supported-wallets/hardware-wallet-support.md): Guidance for Ledger and Trezor users.
+- [Prerequisite](https://docs.coinshift.xyz/business/coinshift-walkthrough/supported-wallets/hardware-wallet-support/prerequisite.md): Setting up your device for accessing Coinshift.
+- [Settings](https://docs.coinshift.xyz/business/coinshift-walkthrough/settings.md): Manage your organisation’s settings.
+- [FAQ: General Information](https://docs.coinshift.xyz/business/faqs/faq-general-information.md): Understanding the basics: Answers to common questions.
+- [FAQ: Onboarding](https://docs.coinshift.xyz/business/faqs/faq-onboarding.md): Discover answers to all your onboarding-related queries here.
+- [FAQ: Notifications](https://docs.coinshift.xyz/business/faqs/faq-notifications.md): Frequently asked questions about Notifications and troubleshooting.
+- [FAQ: Transactions & Operations](https://docs.coinshift.xyz/business/faqs/faq-transactions-and-operations.md): Find answers to all your transactions and operations-related queries here.
+- [FAQ: Coinshift Apps](https://docs.coinshift.xyz/business/faqs/faq-coinshift-apps.md): Frequently asked questions about Coinshift Apps and troubleshooting.
+- [FAQ: Hardware Wallets](https://docs.coinshift.xyz/business/faqs/faq-hardware-wallets.md): Find answers to some of the most commonly asked questions related to the hardware wallets here.
+- [Technical Concerns & Troubleshoot](https://docs.coinshift.xyz/business/faqs/technical-concerns-and-troubleshoot.md): Solutions to the common issues faced by Coinshift users.
+- [Glossary](https://docs.coinshift.xyz/business/resources/glossary.md): An explanation of the key terms used in the Coinshift docs.
+- [Support and Community](https://docs.coinshift.xyz/business/resources/support-and-community.md): Check out Coinshift's official community links.

@@ -1,0 +1,64 @@
+generated: '2026-08-09'
+method: searched
+source: https://registry.npmjs.org/coinshift-sdk + https://registry.npmjs.org/-/v1/search?text=coinshift
+notes: >-
+  Coinshift publishes no API client library. The one first-party package located on any public
+  registry is coinshift-sdk on npm — the legacy "MultiSafe Auth SDK" from the company's pre-rebrand
+  MultiSafe era, published by the founder's npm account (maintainer multisafe / tarun@multisafe.finance)
+  and last released 2022-04-27. It is an IPFS-encryption utility, NOT a client for a Coinshift API,
+  and it is unmaintained. It is recorded here for provenance; no `SDKs` pointer is wired in apis.yml
+  because the company ships no API for an SDK to wrap.
+registries_searched:
+  - registry: npm
+    query: coinshift
+    url: https://registry.npmjs.org/-/v1/search?text=coinshift
+    status: 200
+    first_party_hits: 1
+  - registry: PyPI
+    query: coinshift
+    url: https://pypi.org/pypi/coinshift/json
+    status: 404
+    first_party_hits: 0
+  - registry: pkg.go.dev
+    query: coinshift
+    first_party_hits: 0
+  - registry: RubyGems
+    query: coinshift
+    first_party_hits: 0
+  - registry: crates.io
+    query: coinshift
+    first_party_hits: 0
+  - registry: Maven Central
+    query: coinshift
+    first_party_hits: 0
+  - registry: NuGet
+    query: coinshift
+    first_party_hits: 0
+packages:
+  - language: javascript
+    registry: npm
+    name: coinshift-sdk
+    url: https://www.npmjs.com/package/coinshift-sdk
+    latest_version: 1.0.1
+    first_published: '2021-08-24'
+    last_published: '2022-04-27'
+    license: ISC
+    official: true
+    official_evidence: >-
+      npm maintainer is `multisafe` (tarun@multisafe.finance) — Tarun Gupta, Coinshift founder;
+      MultiSafe is Coinshift's former product name. README titles it "MultiSafe Auth SDK".
+    api_client: false
+    kind: utility-library
+    purpose: >-
+      End-to-end-encrypted read/write against an IPFS gateway plus encrypt/decrypt helpers keyed on
+      Ethereum signatures or an encryption key, scoped to a Safe address.
+    status: unmaintained
+    status_evidence: No release since 2022-04-27; no repository or homepage declared in the package manifest.
+    source_repository: none declared
+x-evidence:
+  fetched: '2026-08-09'
+  probes:
+    - url: https://registry.npmjs.org/coinshift-sdk
+      status: 200
+    - url: https://pypi.org/pypi/coinshift/json
+      status: 404

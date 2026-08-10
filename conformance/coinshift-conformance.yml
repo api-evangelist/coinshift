@@ -1,0 +1,79 @@
+generated: '2026-08-09'
+method: searched
+source: https://docs.coinshift.xyz/llms.txt + https://docs.coinshift.xyz/coinshift-assets/csusdl/coinshift-usdl-vault/token-specification.md
+scope: >-
+  Coinshift publishes no HTTP API, so the API-side standards below are all recorded as non-conforming
+  by absence rather than by defect. The standards Coinshift genuinely conforms to are onchain token
+  standards, which its own documentation states explicitly.
+standards:
+  - id: erc-20
+    conforms: true
+    evidence: >-
+      csUSDL and csUSDC are ERC-20 tokens on Ethereum (csUSDL: Coinshift USDL, 18 decimals,
+      0xbEeFc011e94f43b8B7b455eBaB290C7Ab4E216f1) — docs.coinshift.xyz token specification pages.
+  - id: erc-4626
+    conforms: true
+    evidence: >-
+      Documentation states "ERC4626 is an extension of ERC20 that proposes a standard interface for
+      token vaults" and describes csUSDL as the ERC-4626 receipt token of the Coinshift USDL Morpho Vault.
+  - id: openapi
+    conforms: false
+    evidence: >-
+      No OpenAPI/Swagger document found. Probed /openapi.json, /openapi.yaml, /swagger.json,
+      /v1/openapi.json, /api-docs, /docs, /redoc, /rapidoc on docs.coinshift.xyz and on the
+      application backend uspc-prod.up.railway.app — 404 on every path.
+  - id: graphql
+    conforms: false
+    evidence: POST introspection to uspc-prod.up.railway.app/graphql and /api/graphql returned 404 NOT_FOUND.
+  - id: asyncapi
+    conforms: false
+    evidence: No event, streaming or webhook surface documented anywhere in docs.coinshift.xyz.
+  - id: mcp
+    conforms: false
+    evidence: tools/list POST to uspc-prod.up.railway.app/mcp returned 404 NOT_FOUND; no hosted MCP server advertised.
+  - id: a2a
+    conforms: false
+    evidence: >-
+      /.well-known/agent-card.json and /.well-known/agent.json return the SPA HTML shell on
+      www.coinshift.xyz, app.coinshift.xyz and coinshift.global (soft 200, not an AgentCard),
+      and 404 on docs.coinshift.xyz and uspc-prod.up.railway.app.
+  - id: oauth2
+    conforms: false
+    evidence: >-
+      /.well-known/oauth-authorization-server and /.well-known/oauth-protected-resource return 404
+      on docs.coinshift.xyz and uspc-prod.up.railway.app. Application sign-in is wallet-based
+      (Reown/WalletConnect), not OAuth.
+  - id: oidc-discovery
+    conforms: false
+    evidence: /.well-known/openid-configuration returns 404 on docs.coinshift.xyz.
+  - id: rfc9116-security-txt
+    conforms: false
+    evidence: >-
+      /.well-known/security.txt returns 404 on docs.coinshift.xyz and the SPA HTML shell (soft 200)
+      on www.coinshift.xyz.
+  - id: rfc9457-problem-details
+    conforms: false
+    evidence: >-
+      The undocumented application backend returns a bespoke envelope
+      {"success":false,"error":{"code":"NOT_FOUND","message":"Route not found"}} with
+      content-type application/json — not application/problem+json.
+  - id: llms-txt
+    conforms: true
+    evidence: >-
+      docs.coinshift.xyz/llms.txt returns 200 text/markdown with a complete, link-per-page index of
+      the documentation, and the docs themselves cite it as the canonical "Documentation Index".
+x-evidence:
+  fetched: '2026-08-09'
+  probes:
+    - url: https://docs.coinshift.xyz/llms.txt
+      status: 200
+    - url: https://docs.coinshift.xyz/openapi.json
+      status: 404
+    - url: https://uspc-prod.up.railway.app/openapi.json
+      status: 404
+    - url: https://uspc-prod.up.railway.app/graphql
+      status: 404
+    - url: https://uspc-prod.up.railway.app/mcp
+      status: 404
+    - url: https://docs.coinshift.xyz/.well-known/security.txt
+      status: 404

@@ -1,0 +1,59 @@
+generated: '2026-08-09'
+method: searched
+source: https://status.coinshift.xyz + https://docs.coinshift.xyz/llms.txt
+versioning:
+  scheme: product-generation
+  notes: >-
+    Coinshift versions its application, not an API — the status page enumerates "Coinshift v1 App",
+    "Coinshift v2 App (Beta)" and "Coinshift v2 backend" as separate components. No public API is
+    published, so there is no API version identifier, no version header, and no versioned base path.
+changelog:
+  published: false
+  notes: >-
+    No dated changelog or release-notes page located on www.coinshift.xyz, docs.coinshift.xyz or
+    coinshift.global. The former blog host blog.coinshift.xyz (HubSpot) now returns 404 at the root
+    and on previously indexed post paths.
+status_page:
+  url: https://status.coinshift.xyz/
+  provider: Better Stack
+  http_status: 200
+  observed_state: All services are online
+  observed_at: '2026-08-09'
+  components:
+    - name: Coinshift homepage
+      monitoring: not monitored
+    - name: Coinshift v1 App
+      monitoring: not monitored
+    - name: Coinshift v2 App (Beta)
+      monitoring: not monitored
+    - name: Coinshift v2 backend
+      monitoring: not monitored
+  notes: >-
+    The page is live and publicly reachable, but every listed component reports "not monitored" —
+    the status page is published without active uptime checks behind it.
+deprecation:
+  policy_documented: false
+  sunset_header: false
+  notes: >-
+    No deprecation or sunset policy (RFC 8594 Sunset/Deprecation headers) is documented. The v1
+    application is superseded by v2 and by the coinshift.global (iUSPC) surface, but no migration
+    or end-of-life dates are published.
+sla:
+  documented: false
+observed_lifecycle_events:
+  - date: '2021'
+    event: Founded as MultiSafe; later rebranded to Coinshift.
+    evidence: https://www.npmjs.com/package/coinshift-sdk
+  - event: >-
+      Marketing surface at www.coinshift.xyz now leads with iUSPC (institutional credit yield),
+      while the treasury-management product documentation remains at docs.coinshift.xyz/business.
+    evidence: https://www.coinshift.xyz/
+x-evidence:
+  fetched: '2026-08-09'
+  probes:
+    - url: https://status.coinshift.xyz/
+      status: 200
+    - url: https://blog.coinshift.xyz/
+      status: 404
+    - url: https://blog.coinshift.xyz/base-integration
+      status: 404
