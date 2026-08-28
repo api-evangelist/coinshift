@@ -11,6 +11,17 @@ description: >-
   USDL Morpho Vault, csUSDC, the SHIFT governance token, and the iUSPC institutional credit product. Coinshift
   publishes no public developer API: the documentation at docs.coinshift.xyz is entirely end-user product and
   asset guidance, with no developer portal, API reference, OpenAPI, GraphQL schema or webhook catalog.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://app.coinshift.xyz/images/logo.svg
 url: https://raw.githubusercontent.com/api-evangelist/coinshift/refs/heads/main/apis.yml
 x-type: company
